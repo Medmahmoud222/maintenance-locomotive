@@ -1,0 +1,191 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header ul li a:hover {
+    background-color: #555;
+}
+        
+        /* Style pour le formulaire de trains */
+        form {
+            margin: 20px auto;
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form label,
+        form input,
+        form button {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        form input[type="text"],
+        form input[type="date"],
+        form input[type="number"] {
+            width: 100%;
+            padding: 5px;
+        }
+
+        form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Style de la table les train */
+        table {
+            width: 40%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+        td span{
+            color:  blueviolet;
+            cursor: pointer;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+/* ////////////////////////// */
+
+
+/* Centrer le formulaire dans la page */
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style du formulaire */
+.edit-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des champs de saisie */
+.cell-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* Style des boutons */
+.btn-modifier,
+.btn-supprimer {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    margin-left: 15%;
+}
+ 
+.btn-modifier {
+    background-color: #007bff;
+}
+
+.btn-supprimer {
+    background-color: #dc3545;
+} 
+
+/* Au survol des boutons, on change la couleur de fond */
+.btn-modifier:hover,
+.btn-supprimer:hover {
+    background-color: #0056b3;
+}
+
+.form-container #suprimer{
+    color: red;
+}
+
+/* ///for page leslocomotives */
+.locomotiveform label {
+    display: block;
+    margin-top: 10px;
+}
+.locomotiveform input[type="text"] {
+    width: 100%;
+    padding: 5px;
+}
+.buttonlocomotive {
+    background-color: #333;;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.buttonlocomotive:hover {
+    background-color: #0056b3;
+}
+
+input{
+    font-size: 20px;
+}
+#Selectvisite{
+    height: 30px;
+    width: 103%;
+}
+
+/* //Page parametres.php */
+#pr_vr,
+#pr_vc,
+#btnpr{
+    margin-left: -190px;
+}
+#btnpr{
+    margin-left: -290px;
+}
+
+body{
+    margin: 0px;
+}
